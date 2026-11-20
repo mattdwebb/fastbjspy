@@ -1,0 +1,13 @@
+Obtaining file:///<historical-local-path>/fastbjspy
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: fastbjspy
+  Building editable for fastbjspy (pyproject.toml): started
+  Building editable for fastbjspy (pyproject.toml): finished with status 'done'
+  Created wheel for fastbjspy: filename=fastbjspy-0.1.0-0.editable-py3-none-any.whl size=1245 sha256=46540c792b4a9087d4da1024f3e6d01eac669ec8fd04a74e623931729e87a483
+  Stored in directory: <historical-local-path>/fd42e73a6677df1a124d3e359fc17e5d42f0ebd6b0d17e5feb
+Successfully built fastbjspy
+Installing collected packages: fastbjspy
+Successfully installed fastbjspy-0.1.0

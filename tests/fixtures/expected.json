@@ -1,0 +1,30 @@
+[
+  {
+    "file": "balanced.csv",
+    "covariates": [],
+    "estimate": 1.1020364588250977,
+    "source": "research implementation, evaluated before edits"
+  },
+  {
+    "file": "balanced.csv",
+    "covariates": [
+      "x"
+    ],
+    "estimate": 1.0358428802291388,
+    "source": "research implementation, evaluated before edits"
+  },
+  {
+    "file": "unequal.csv",
+    "covariates": [],
+    "estimate": 1.117136219176769,
+    "source": "research implementation, evaluated before edits"
+  },
+  {
+    "file": "unequal.csv",
+    "covariates": [
+      "x"
+    ],
+    "estimate": 1.0117309075062388,
+    "source": "research implementation, evaluated before edits"
+  }
+]

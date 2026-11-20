@@ -1,0 +1,4 @@
+design,status,point_gap,component_gap,weight_gap,reason
+moderate_weights_legacy_point,pass,1.5543122344752192e-15,3.9968028886505635e-15,4.440892098500626e-16,preserved weighted/incomplete-cell point API; direct raw WLS oracle; common inference remains restricted
+extreme_weights_legacy_point,pass,3.930189507173054e-14,9.969802761133906e-14,0.0,preserved weighted/incomplete-cell point API; direct raw WLS oracle; common inference remains restricted
+missing_cells_legacy_point,pass,4.884981308350689e-15,8.770761894538737e-15,0.0,preserved weighted/incomplete-cell point API; direct raw WLS oracle; common inference remains restricted

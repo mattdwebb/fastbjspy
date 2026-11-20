@@ -1,0 +1,4058 @@
+[
+  {
+    "design": "balanced",
+    "ri_fast": {
+      "estimate": 1.2214079632207147,
+      "statistic": 1.2214079632207147,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.6577363247094747,
+        0.14621707240325854,
+        0.3308455738592142
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 1.2214079632207187,
+      "statistic": 1.2214079632207187,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.6577363247094765,
+        0.14621707240326043,
+        0.33084557385921187
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 1.2214079632207147,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0004430150667217721,
+      "procedural_p_values": [
+        0.015762633350431828,
+        0.7373789736389238,
+        0.5853937404527774
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 1.2214079632207187,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0004430150667217605,
+      "procedural_p_values": [
+        0.01576263335043232,
+        0.7373789736389214,
+        0.5853937404527851
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 1.2214079632207147,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0004430150667217721,
+      "procedural_p_values": [
+        0.5853215428743883,
+        0.5641101598576752,
+        0.7299188732015196
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 1.2214079632207187,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0004430150667217605,
+      "procedural_p_values": [
+        0.5853215428743956,
+        0.5641101598576861,
+        0.7299188732015072
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "panel",
+    "ri_fast": {
+      "estimate": 0.9807834065900775,
+      "statistic": 0.9807834065900775,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        0.01986469676124007,
+        0.0667664393929801,
+        0.5477647017945256
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 0.9807834065900773,
+      "statistic": 0.9807834065900773,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        0.01986469676124225,
+        0.06676643939298291,
+        0.5477647017945233
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 0.9807834065900775,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0034444120250042287,
+      "procedural_p_values": [
+        0.9557700926740436,
+        0.8738657307331817,
+        0.30955464424742896
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 0.9807834065900773,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.003444412025003993,
+      "procedural_p_values": [
+        0.9557700926740385,
+        0.8738657307331764,
+        0.3095546442474425
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 0.9807834065900775,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0034444120250042287,
+      "procedural_p_values": [
+        0.15746435425749752,
+        0.8423685842444973,
+        0.2908226426588899
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 0.9807834065900773,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.003444412025003993,
+      "procedural_p_values": [
+        0.15746435425749516,
+        0.8423685842444997,
+        0.29082264265890845
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "unequal",
+    "ri_fast": {
+      "estimate": 0.922605494917208,
+      "statistic": 0.922605494917208,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.5024099342626127,
+        -0.08616352505544869,
+        0.10410089908886544
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 0.9226054949172156,
+      "statistic": 0.9226054949172156,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.5024099342626126,
+        -0.08616352505544854,
+        0.104100899088859
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 0.922605494917208,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.00019255160224208783,
+      "procedural_p_values": [
+        0.05339350073209561,
+        0.7982616751073042,
+        0.8090999208357172
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 0.9226054949172156,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.00019255160224205086,
+      "procedural_p_values": [
+        0.053393500732096304,
+        0.7982616751073026,
+        0.8090999208357295
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 0.922605494917208,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.00019255160224208783,
+      "procedural_p_values": [
+        0.7251471955992674,
+        0.027504246320947303,
+        0.4796101548057272
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 0.9226054949172156,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.00019255160224205086,
+      "procedural_p_values": [
+        0.7251471955992858,
+        0.027504246320942023,
+        0.47961015480567604
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "extreme_sizes",
+    "ri_fast": {
+      "estimate": 0.9968316769667016,
+      "statistic": 0.9968316769667016,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.0018279399436842425,
+        0.3264179406506104,
+        0.305531275731843
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 0.9968316769666945,
+      "statistic": 0.9968316769666945,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.0018279399436915743,
+        0.3264179406506172,
+        0.30553127573184774
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 0.9968316769667016,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0001099248536726015,
+      "procedural_p_values": [
+        0.997432465929839,
+        0.40834492812537293,
+        0.5210177314749627
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 0.9968316769666945,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.00010992485367260053,
+      "procedural_p_values": [
+        0.9974324659298286,
+        0.40834492812536205,
+        0.5210177314749702
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 0.9968316769667016,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0001099248536726015,
+      "procedural_p_values": [
+        0.5538321797643626,
+        0.6569901133595879,
+        0.5608590031633769
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 0.9968316769666945,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.00010992485367260053,
+      "procedural_p_values": [
+        0.5538321797644714,
+        0.656990113359528,
+        0.5608590031633711
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "unbalanced_post",
+    "ri_fast": {
+      "estimate": 0.922605494917208,
+      "statistic": 0.922605494917208,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.5024099342626127,
+        -0.08616352505544869,
+        0.10410089908886544
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 0.9226054949172156,
+      "statistic": 0.9226054949172156,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.5024099342626126,
+        -0.08616352505544854,
+        0.104100899088859
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 0.922605494917208,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.00019255160224208783,
+      "procedural_p_values": [
+        0.05339350073209561,
+        0.7982616751073042,
+        0.8090999208357172
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 0.9226054949172156,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.00019255160224205086,
+      "procedural_p_values": [
+        0.053393500732096304,
+        0.7982616751073026,
+        0.8090999208357295
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 0.922605494917208,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.00019255160224208783,
+      "procedural_p_values": [
+        0.7251471955992674,
+        0.027504246320947303,
+        0.4796101548057272
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 0.9226054949172156,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.00019255160224205086,
+      "procedural_p_values": [
+        0.7251471955992858,
+        0.027504246320942023,
+        0.47961015480567604
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "row_shuffled",
+    "ri_fast": {
+      "estimate": 1.2214079632207147,
+      "statistic": 1.2214079632207147,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.6577363247094747,
+        0.14621707240325815,
+        0.3308455738592142
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 1.2214079632207193,
+      "statistic": 1.2214079632207193,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.6577363247094719,
+        0.1462170724032615,
+        0.33084557385921304
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 1.2214079632207147,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0004430150667217721,
+      "procedural_p_values": [
+        0.01576263335043187,
+        0.7373789736389246,
+        0.5853937404527775
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 1.2214079632207193,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.00044301506672174933,
+      "procedural_p_values": [
+        0.01576263335043187,
+        0.7373789736389205,
+        0.5853937404527794
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 1.2214079632207147,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0004430150667217721,
+      "procedural_p_values": [
+        0.5853215428743886,
+        0.5641101598576743,
+        0.7299188732015198
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 1.2214079632207193,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.00044301506672174933,
+      "procedural_p_values": [
+        0.585321542874429,
+        0.5641101598576806,
+        0.7299188732015105
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "string_labels",
+    "ri_fast": {
+      "estimate": 1.2214079632207147,
+      "statistic": 1.2214079632207147,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        0.2650485513928255,
+        -0.33121189975395837,
+        -0.5006669316271357
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 1.2214079632207178,
+      "statistic": 1.2214079632207178,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        0.2650485513928262,
+        -0.33121189975395743,
+        -0.500666931627136
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 1.2214079632207147,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0004430150667217721,
+      "procedural_p_values": [
+        0.4615544487092147,
+        0.5047027760272351,
+        0.2020305701484918
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 1.2214079632207178,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0004430150667217528,
+      "procedural_p_values": [
+        0.46155444870921725,
+        0.5047027760272373,
+        0.2020305701484928
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 1.2214079632207147,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0004430150667217721,
+      "procedural_p_values": [
+        0.2954170325435582,
+        0.4107757331550771,
+        0.39902349066605924
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 1.2214079632207178,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0004430150667217528,
+      "procedural_p_values": [
+        0.295417032543564,
+        0.41077573315508076,
+        0.399023490666065
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "one_cohort",
+    "ri_fast": {
+      "estimate": 1.2226094915372203,
+      "statistic": 1.2226094915372203,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.19859531757130147,
+        0.49197714300258183,
+        0.7219057329793875
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 1.2226094915372214,
+      "statistic": 1.2226094915372214,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.1985953175713021,
+        0.4919771430025833,
+        0.7219057329793873
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 1.2226094915372203,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 9.946400102849789e-05,
+      "procedural_p_values": [
+        0.7305841397544874,
+        0.3732468894755264,
+        0.16202184945321368
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 1.2226094915372214,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 9.946400102849754e-05,
+      "procedural_p_values": [
+        0.7305841397544872,
+        0.37324688947552387,
+        0.16202184945321282
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 1.2226094915372203,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 9.946400102849789e-05,
+      "procedural_p_values": [
+        0.16416840663556426,
+        0.43984836187760534,
+        0.47651382849556356
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 1.2226094915372214,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 9.946400102849754e-05,
+      "procedural_p_values": [
+        0.16416840663556712,
+        0.439848361877609,
+        0.4765138284955597
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "one_treated",
+    "ri_fast": {
+      "estimate": 0.8704832774257776,
+      "statistic": 0.8704832774257776,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.3256548149355642,
+        -0.29336484102807586,
+        -0.291756250038744
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 0.8704832774257767,
+      "statistic": 0.8704832774257767,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.3256548149355631,
+        -0.2933648410280737,
+        -0.2917562500387434
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    }
+  },
+  {
+    "design": "two_treated",
+    "ri_fast": {
+      "estimate": 1.2175477704346687,
+      "statistic": 1.2175477704346687,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.5079873031223117,
+        -0.25500679312881847,
+        0.5198005498905524
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 1.217547770434669,
+      "statistic": 1.217547770434669,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.507987303122313,
+        -0.2550067931288203,
+        0.5198005498905519
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 1.2175477704346687,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.013545107315967725,
+      "procedural_p_values": [
+        0.10389337878195268,
+        0.5244833754357067,
+        0.6423815481708426
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 1.217547770434669,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.013545107315967633,
+      "procedural_p_values": [
+        0.1038933787819516,
+        0.5244833754357026,
+        0.6423815481708419
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 1.2175477704346687,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.013545107315967725,
+      "procedural_p_values": [
+        0.31930340712387417,
+        0.5847292001373332,
+        0.6801678311130117
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 1.217547770434669,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.013545107315967633,
+      "procedural_p_values": [
+        0.31930340712387417,
+        0.5847292001373217,
+        0.6801678311130123
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "many_treated",
+    "ri_fast": {
+      "estimate": 1.0658158665056552,
+      "statistic": 1.0658158665056552,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        0.3904588728407407,
+        0.015525212086727804,
+        -0.21855881076206304
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 1.0658158665056616,
+      "statistic": 1.0658158665056616,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        0.3904588728407395,
+        0.015525212086732203,
+        -0.2185588107620658
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 1.0658158665056552,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.000895036107509667,
+      "procedural_p_values": [
+        0.3265313192518531,
+        0.9642117272539312,
+        0.6692587185480438
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 1.0658158665056616,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.000895036107509652,
+      "procedural_p_values": [
+        0.3265313192518545,
+        0.9642117272539211,
+        0.6692587185480396
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 1.0658158665056552,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.000895036107509667,
+      "procedural_p_values": [
+        0.7734570414039725,
+        0.4875151473394448,
+        0.7243177644781313
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 1.0658158665056616,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.000895036107509652,
+      "procedural_p_values": [
+        0.773457041403984,
+        0.48751514733943957,
+        0.7243177644781376
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "singleton_cohort",
+    "ri_fast": {
+      "estimate": 1.1280800441659302,
+      "statistic": 1.1280800441659302,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.09316824521436325,
+        0.4521946856922197,
+        -0.14746992990214278
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 1.1280800441659298,
+      "statistic": 1.1280800441659298,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.09316824521435672,
+        0.4521946856922204,
+        -0.14746992990214172
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    }
+  },
+  {
+    "design": "unbalanced_cohorts",
+    "ri_fast": {
+      "estimate": 0.9273377906361138,
+      "statistic": 0.9273377906361138,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 12,
+      "statistics": [
+        -0.015503288316986167,
+        0.3518420127593375,
+        0.07262895934279309
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 0.9273377906361162,
+      "statistic": 0.9273377906361162,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 12,
+      "statistics": [
+        -0.015503288316983799,
+        0.35184201275934146,
+        0.07262895934279638
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 0.9273377906361138,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 12,
+      "actual_p_value": 0.0009223013433888195,
+      "procedural_p_values": [
+        0.94794544569049,
+        0.25440648153972545,
+        0.8275852389567008
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 0.9273377906361162,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 12,
+      "actual_p_value": 0.0009223013433887969,
+      "procedural_p_values": [
+        0.9479454456904977,
+        0.2544064815397201,
+        0.8275852389566922
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 0.9273377906361138,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 12,
+      "actual_p_value": 0.0009223013433888195,
+      "procedural_p_values": [
+        0.5250300353477837,
+        0.00727877585702178,
+        0.5750433756289601
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 0.9273377906361162,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 12,
+      "actual_p_value": 0.0009223013433887969,
+      "procedural_p_values": [
+        0.5250300353477981,
+        0.007278775857021553,
+        0.5750433756289677
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "long_pre",
+    "ri_fast": {
+      "estimate": 1.017013380284648,
+      "statistic": 1.017013380284648,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.38256952790491666,
+        0.15789291260672508,
+        0.30118136015844027
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 1.017013380284683,
+      "statistic": 1.017013380284683,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.38256952790490173,
+        0.15789291260671826,
+        0.30118136015844005
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 1.017013380284648,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0002906201697332548,
+      "procedural_p_values": [
+        0.2672447222244443,
+        0.6983790693083628,
+        0.5252285287282125
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 1.017013380284683,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.00029062016973318726,
+      "procedural_p_values": [
+        0.26724472222445417,
+        0.6983790693083742,
+        0.525228528728204
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 1.017013380284648,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0002906201697332548,
+      "procedural_p_values": [
+        0.5184812597951893,
+        0.5184542797875527,
+        0.7602887086645967
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 1.017013380284683,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.00029062016973318726,
+      "procedural_p_values": [
+        0.5184812597950874,
+        0.5184542797875054,
+        0.7602887086646443
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "short_pre",
+    "ri_fast": {
+      "estimate": 1.166341418957139,
+      "statistic": 1.166341418957139,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.46385820215305174,
+        0.3315771552831013,
+        0.3791763664150123
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 1.1663414189571408,
+      "statistic": 1.1663414189571408,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.4638582021530498,
+        0.33157715528310167,
+        0.3791763664150094
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 1.166341418957139,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0001102691918034006,
+      "procedural_p_values": [
+        0.05811207506676715,
+        0.48257340051738695,
+        0.506272059541685
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 1.1663414189571408,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0001102691918034006,
+      "procedural_p_values": [
+        0.058112075066767944,
+        0.4825734005173875,
+        0.5062720595416836
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 1.166341418957139,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0001102691918034006,
+      "procedural_p_values": [
+        0.2586167094793931,
+        0.5244450756112986,
+        0.6275045332328593
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 1.1663414189571408,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0001102691918034006,
+      "procedural_p_values": [
+        0.2586167094794035,
+        0.5244450756112972,
+        0.6275045332328628
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "long_post",
+    "ri_fast": {
+      "estimate": 0.8909902882748805,
+      "statistic": 0.8909902882748805,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.2605581977667039,
+        0.32635211551090987,
+        0.32907522661458705
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 0.8909902882748739,
+      "statistic": 0.8909902882748739,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.2605581977667095,
+        0.32635211551090415,
+        0.32907522661458416
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 0.8909902882748805,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0034290146113761487,
+      "procedural_p_values": [
+        0.47288510539340467,
+        0.3240687808240721,
+        0.4653995497096848
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 0.8909902882748739,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0034290146113764054,
+      "procedural_p_values": [
+        0.47288510539339434,
+        0.3240687808240773,
+        0.46539954970968944
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 0.8909902882748805,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0034290146113761487,
+      "procedural_p_values": [
+        0.1977933658820521,
+        0.8985105434265646,
+        0.31660390510905834
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 0.8909902882748739,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0034290146113764054,
+      "procedural_p_values": [
+        0.19779336588206753,
+        0.8985105434265759,
+        0.31660390510905434
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "short_post",
+    "ri_fast": {
+      "estimate": 1.1483342323931365,
+      "statistic": 1.1483342323931365,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.7491890040251357,
+        0.04384475440512661,
+        0.4928469716323607
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 1.14833423239313,
+      "statistic": 1.14833423239313,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.7491890040251277,
+        0.04384475440512898,
+        0.4928469716323509
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 1.1483342323931365,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0008305119283178225,
+      "procedural_p_values": [
+        0.013751824861625366,
+        0.9129988581069115,
+        0.3445921241222091
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 1.14833423239313,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0008305119283178417,
+      "procedural_p_values": [
+        0.013751824861626296,
+        0.9129988581069067,
+        0.3445921241222243
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 1.1483342323931365,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0008305119283178225,
+      "procedural_p_values": [
+        0.25186793262106255,
+        0.2426172776265696,
+        0.40887270901970807
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 1.14833423239313,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0008305119283178417,
+      "procedural_p_values": [
+        0.2518679326210548,
+        0.2426172776265617,
+        0.40887270901974115
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "cohort_heterogeneous",
+    "ri_fast": {
+      "estimate": 1.054741296554048,
+      "statistic": 1.054741296554048,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.7410696580428081,
+        0.39621707240325854,
+        -0.16915442614078596
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 1.054741296554052,
+      "statistic": 1.054741296554052,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.741069658042809,
+        0.39621707240326054,
+        -0.1691544261407876
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 1.054741296554048,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.013055766843994513,
+      "procedural_p_values": [
+        0.03537850924102007,
+        0.39696878235502453,
+        0.7662903118543438
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 1.054741296554052,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.013055766843995597,
+      "procedural_p_values": [
+        0.0353785092410222,
+        0.39696878235502453,
+        0.7662903118543445
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 1.054741296554048,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.013055766843994513,
+      "procedural_p_values": [
+        0.30184667026482115,
+        0.17125400641904343,
+        0.05772754378181853
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 1.054741296554052,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.013055766843995597,
+      "procedural_p_values": [
+        0.30184667026482603,
+        0.17125400641904376,
+        0.05772754378182008
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "state_heterogeneous",
+    "ri_fast": {
+      "estimate": -0.011925370112618516,
+      "statistic": -0.011925370112618516,
+      "p_value": 1.0,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.21606965804280806,
+        0.38788373906992557,
+        -0.7024877594741193
+      ],
+      "hit_indicators": [
+        true,
+        true,
+        true
+      ],
+      "hits": 3,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": -0.011925370112614568,
+      "statistic": -0.011925370112614568,
+      "p_value": 1.0,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.21606965804280837,
+        0.38788373906992724,
+        -0.7024877594741219
+      ],
+      "hit_indicators": [
+        true,
+        true,
+        true
+      ],
+      "hits": 3,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": -0.011925370112618516,
+      "p_value": 1.0,
+      "empirical_placebo_p_value": 1.0,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.9836863964740423,
+      "procedural_p_values": [
+        0.5041992249763473,
+        0.16153125584085334,
+        0.16327229354135794
+      ],
+      "hit_indicators": [
+        true,
+        true,
+        true
+      ],
+      "hits": 3,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": -0.011925370112614568,
+      "p_value": 1.0,
+      "empirical_placebo_p_value": 1.0,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.9836863964740479,
+      "procedural_p_values": [
+        0.5041992249763475,
+        0.1615312558408541,
+        0.16327229354135855
+      ],
+      "hit_indicators": [
+        true,
+        true,
+        true
+      ],
+      "hits": 3,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": -0.011925370112618516,
+      "p_value": 1.0,
+      "empirical_placebo_p_value": 1.0,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.9836863964740423,
+      "procedural_p_values": [
+        0.49316534317193605,
+        0.1607496081596816,
+        0.1660545889945047
+      ],
+      "hit_indicators": [
+        true,
+        true,
+        true
+      ],
+      "hits": 3,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": -0.011925370112614568,
+      "p_value": 1.0,
+      "empirical_placebo_p_value": 1.0,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.9836863964740479,
+      "procedural_p_values": [
+        0.49316534317194094,
+        0.16074960815968128,
+        0.16605458899450484
+      ],
+      "hit_indicators": [
+        true,
+        true,
+        true
+      ],
+      "hits": 3,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "time_varying",
+    "ri_fast": {
+      "estimate": 1.1880746298873812,
+      "statistic": 1.1880746298873812,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.6410696580428081,
+        0.22955040573659208,
+        0.2308455738592144
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 1.1880746298873854,
+      "statistic": 1.1880746298873854,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.6410696580428095,
+        0.22955040573659405,
+        0.230845573859212
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 1.1880746298873812,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0005216411786528719,
+      "procedural_p_values": [
+        0.028092937510374064,
+        0.6128624053096245,
+        0.6973159314211745
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 1.1880746298873854,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0005216411786528903,
+      "procedural_p_values": [
+        0.02809293751037507,
+        0.6128624053096223,
+        0.6973159314211805
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 1.1880746298873812,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0005216411786528719,
+      "procedural_p_values": [
+        0.6719821804441846,
+        0.8039541292139375,
+        0.4527834320748828
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 1.1880746298873854,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0005216411786528903,
+      "procedural_p_values": [
+        0.6719821804441952,
+        0.8039541292139292,
+        0.45278343207487426
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "weak_null",
+    "ri_fast": {
+      "estimate": 0.22140796322071477,
+      "statistic": 0.22140796322071477,
+      "p_value": 1.0,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.3327363247094745,
+        0.42677262795881415,
+        -0.6247099816963417
+      ],
+      "hit_indicators": [
+        true,
+        true,
+        true
+      ],
+      "hits": 3,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 0.22140796322071868,
+      "statistic": 0.22140796322071868,
+      "p_value": 1.0,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.33273632470947523,
+        0.42677262795881604,
+        -0.6247099816963436
+      ],
+      "hit_indicators": [
+        true,
+        true,
+        true
+      ],
+      "hits": 3,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 0.22140796322071477,
+      "p_value": 1.0,
+      "empirical_placebo_p_value": 1.0,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.705735615768476,
+      "procedural_p_values": [
+        0.32368214617637536,
+        0.16117729473652614,
+        0.2314923465602542
+      ],
+      "hit_indicators": [
+        true,
+        true,
+        true
+      ],
+      "hits": 3,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 0.22140796322071868,
+      "p_value": 1.0,
+      "empirical_placebo_p_value": 1.0,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.7057356157684739,
+      "procedural_p_values": [
+        0.3236821461763798,
+        0.16117729473652614,
+        0.2314923465602564
+      ],
+      "hit_indicators": [
+        true,
+        true,
+        true
+      ],
+      "hits": 3,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 0.22140796322071477,
+      "p_value": 1.0,
+      "empirical_placebo_p_value": 1.0,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.705735615768476,
+      "procedural_p_values": [
+        0.49316534317193605,
+        0.1607496081596817,
+        0.16605458899450445
+      ],
+      "hit_indicators": [
+        true,
+        true,
+        true
+      ],
+      "hits": 3,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 0.22140796322071868,
+      "p_value": 1.0,
+      "empirical_placebo_p_value": 1.0,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.7057356157684739,
+      "procedural_p_values": [
+        0.49316534317194183,
+        0.16074960815968134,
+        0.16605458899450484
+      ],
+      "hit_indicators": [
+        true,
+        true,
+        true
+      ],
+      "hits": 3,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "covariates",
+    "ri_fast": {
+      "estimate": 1.0525700482903315,
+      "statistic": 1.0525700482903315,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.48343705306232937,
+        0.20367319718301147,
+        0.3437867305768787
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 1.052570048290331,
+      "statistic": 1.052570048290331,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.483437053062324,
+        0.2036731971830138,
+        0.34378673057688025
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 1.0525700482903315,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0006078512243472096,
+      "procedural_p_values": [
+        0.043652384928060506,
+        0.5188171814462562,
+        0.5103710332165934
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 1.052570048290331,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0006078512243471856,
+      "procedural_p_values": [
+        0.04365238492806158,
+        0.5188171814462504,
+        0.5103710332165913
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 1.0525700482903315,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0006078512243472096,
+      "procedural_p_values": [
+        0.7272576789347638,
+        0.8666036379525309,
+        0.9250209510499928
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 1.052570048290331,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0006078512243471856,
+      "procedural_p_values": [
+        0.7272576789347369,
+        0.8666036379525148,
+        0.9250209510499972
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "correlated",
+    "ri_fast": {
+      "estimate": 1.0525700482903315,
+      "statistic": 1.0525700482903315,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.4834370530623296,
+        0.20367319718301127,
+        0.3437867305768789
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 1.0525700482903346,
+      "statistic": 1.0525700482903346,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.4834370530623282,
+        0.20367319718301605,
+        0.3437867305768797
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 1.0525700482903315,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0006078512243472078,
+      "procedural_p_values": [
+        0.04365238492806026,
+        0.5188171814462563,
+        0.5103710332165932
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 1.0525700482903346,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0006078512243472064,
+      "procedural_p_values": [
+        0.043652384928058126,
+        0.5188171814462497,
+        0.5103710332165894
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 1.0525700482903315,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0006078512243472078,
+      "procedural_p_values": [
+        0.727257678934762,
+        0.8666036379525293,
+        0.9250209510499929
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 1.0525700482903346,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0006078512243472064,
+      "procedural_p_values": [
+        0.7272576789347522,
+        0.8666036379525232,
+        0.9250209510499943
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  },
+  {
+    "design": "near_collinear",
+    "ri_fast": {
+      "estimate": 1.0525700482872706,
+      "statistic": 1.0525700482872706,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.4834370530099089,
+        0.2036731971480632,
+        0.34378673062659126
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast"
+      }
+    },
+    "ri_reference": {
+      "estimate": 1.0525700482811422,
+      "statistic": 1.0525700482811422,
+      "p_value": 0.25,
+      "method": "randomization_inference",
+      "cluster_count": 8,
+      "statistics": [
+        -0.48343705312160956,
+        0.20367319721506694,
+        0.3437867305620621
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive absolute statistic; numerical ties within 64 eps times max(1, magnitudes)",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference"
+      }
+    },
+    "replace_fast": {
+      "estimate": 1.0525700482872706,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0006078512244174223,
+      "procedural_p_values": [
+        0.0436523847383876,
+        0.5188171816603351,
+        0.5103710331709139
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "replace_reference": {
+      "estimate": 1.0525700482811422,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_replace",
+      "cluster_count": 8,
+      "actual_p_value": 0.0006078512238525089,
+      "procedural_p_values": [
+        0.04365238485016996,
+        0.5188171815773752,
+        0.5103710331718787
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_fast": {
+      "estimate": 1.0525700482872706,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0006078512244174223,
+      "procedural_p_values": [
+        0.7272576788507471,
+        0.8666036380304918,
+        0.9250209509421656
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "fast",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    },
+    "subtract_reference": {
+      "estimate": 1.0525700482811422,
+      "p_value": 0.25,
+      "empirical_placebo_p_value": 0.25,
+      "method": "placebo_subtract",
+      "cluster_count": 8,
+      "actual_p_value": 0.0006078512238525089,
+      "procedural_p_values": [
+        0.7272576788648017,
+        0.8666036379734835,
+        0.9250209510799385
+      ],
+      "hit_indicators": [
+        false,
+        false,
+        false
+      ],
+      "hits": 0,
+      "draws": 3,
+      "valid_draws": 3,
+      "invalid_draws": 0,
+      "diagnostics": {
+        "status": "ok",
+        "failures": [],
+        "tail": "inclusive lower procedural p value; relative numerical ties within 64 eps",
+        "correction": "plus_one; observed excluded",
+        "engine": "reference",
+        "subtract_fit": "full-sample scalar fixed throughout each inner jackknife"
+      }
+    }
+  }
+]

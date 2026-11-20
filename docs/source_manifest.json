@@ -1,0 +1,176 @@
+{
+  "source": "historical-source/combined_simulation",
+  "git": "fatal: not a git repository (or any of the parent directories): .git",
+  "files": [
+    {
+      "path": "estimators\\__init__.py",
+      "size": 357,
+      "sha256": "5ac3bc614bffbd9bbd2c62311420dd9aa33167c76ee6a66dd9cb66394834bac7",
+      "modified": "2026-08-23T19:34:09.515678+00:00",
+      "entry_points": [],
+      "imports": [
+        "from .estimator_cache import EstimatorCache, ScheduleDesign",
+        "from .estimator_result import EstimatorResult",
+        "from .fast_bjs import estimate_bjs",
+        "from .fast_flex import estimate_flex"
+      ]
+    },
+    {
+      "path": "estimators\\fast_bjs.py",
+      "size": 8246,
+      "sha256": "77bcee7d760946261cef5430ca6c07a18ff036a9eb828e1f9b70ad02eac571cd",
+      "modified": "2026-08-23T19:35:55.250962+00:00",
+      "entry_points": [
+        "_design_matrix",
+        "_weighted_lstsq",
+        "_cell_effects",
+        "estimate_bjs"
+      ],
+      "imports": [
+        "from __future__ import annotations",
+        "import time",
+        "from typing import Any, Dict, Iterable, List, Mapping, Optional",
+        "import numpy as np",
+        "import pandas as pd",
+        "from ..canonical_aggregation import aggregate_from_att_st",
+        "from .estimator_cache import EstimatorCache",
+        "from .estimator_result import EstimatorResult",
+        "from canonical_aggregation import aggregate_from_att_st",
+        "from estimator_cache import EstimatorCache",
+        "from estimator_result import EstimatorResult"
+      ]
+    },
+    {
+      "path": "estimators\\fast_flex.py",
+      "size": 9730,
+      "sha256": "10b18dc8d960e3d45d0c89a6239bb702394b10da3c2abbdc902481069653a56c",
+      "modified": "2026-08-23T20:03:25.963371+00:00",
+      "entry_points": [
+        "_safe_value",
+        "_flex_base_design",
+        "_flex_design",
+        "estimate_flex"
+      ],
+      "imports": [
+        "from __future__ import annotations",
+        "import time",
+        "from typing import Any, Dict, Iterable, List, Mapping, Optional, Tuple",
+        "import numpy as np",
+        "import pandas as pd",
+        "from ..canonical_aggregation import aggregate_from_att_st",
+        "from .estimator_cache import EstimatorCache",
+        "from .estimator_result import EstimatorResult",
+        "from .fast_bjs import _design_matrix, _weighted_lstsq",
+        "from canonical_aggregation import aggregate_from_att_st",
+        "from estimator_cache import EstimatorCache",
+        "from estimator_result import EstimatorResult",
+        "from fast_bjs import _design_matrix, _weighted_lstsq"
+      ]
+    },
+    {
+      "path": "estimators\\estimator_cache.py",
+      "size": 5488,
+      "sha256": "c8dc3dc4cbb513b3f036df1bfab625bc9c08f1bef2693e2f20994043a308ee87",
+      "modified": "2026-08-23T19:34:14.431355+00:00",
+      "entry_points": [
+        "_normalize_time",
+        "normalize_schedule",
+        "ScheduleDesign",
+        "EstimatorCache"
+      ],
+      "imports": [
+        "from __future__ import annotations",
+        "from dataclasses import dataclass",
+        "from typing import Any, Dict, Iterable, List, Mapping, Optional, Sequence",
+        "import numpy as np",
+        "import pandas as pd"
+      ]
+    },
+    {
+      "path": "estimators\\estimator_result.py",
+      "size": 839,
+      "sha256": "acf2eaabd3c3027b66fd5105b441d930d49260189354e37f43717e9b526fc80b",
+      "modified": "2026-08-23T19:34:12.202929+00:00",
+      "entry_points": [
+        "EstimatorResult"
+      ],
+      "imports": [
+        "from __future__ import annotations",
+        "from dataclasses import dataclass, field",
+        "from typing import Any, Dict, Optional",
+        "import numpy as np",
+        "import pandas as pd"
+      ]
+    },
+    {
+      "path": "canonical_aggregation.py",
+      "size": 16616,
+      "sha256": "012c6009ce1e792732cea1311c145d8dbab70bbf74bf8575251ce54856c5bc73",
+      "modified": "2026-08-25T13:15:43.082451+00:00",
+      "entry_points": [
+        "_two_sided_normal_pvalue",
+        "weighted_mean_and_se",
+        "_empty",
+        "_weight_vector",
+        "_aggregate_block",
+        "_aggregate_frame",
+        "prepare_att_st_table",
+        "aggregate_from_att_st",
+        "aggregation_identity_weights",
+        "identity_diagnostics"
+      ],
+      "imports": [
+        "from __future__ import annotations",
+        "import math",
+        "from typing import Any, Dict, Iterable, List, Optional",
+        "import numpy as np",
+        "import pandas as pd"
+      ]
+    },
+    {
+      "path": "inference\\__init__.py",
+      "size": 69,
+      "sha256": "27cbcf26b66d036d4171344bab5388deb06bebc5d07885776072a00947e0d328",
+      "modified": "2026-08-23T19:34:22.394000+00:00",
+      "entry_points": [],
+      "imports": []
+    },
+    {
+      "path": "inference\\cluster_jackknife.py",
+      "size": 2090,
+      "sha256": "09156e3a9b9a543addca793a31a7062476ed58331e04cc21ff5b1d463c27dad4",
+      "modified": "2026-08-23T19:34:24.388388+00:00",
+      "entry_points": [
+        "cluster_jackknife"
+      ],
+      "imports": [
+        "from __future__ import annotations",
+        "from typing import Any, Callable, Dict, Iterable, Mapping",
+        "import numpy as np",
+        "import pandas as pd",
+        "from ..estimators import EstimatorCache, EstimatorResult",
+        "from estimators import EstimatorCache, EstimatorResult"
+      ]
+    },
+    {
+      "path": "inference\\randomization.py",
+      "size": 3499,
+      "sha256": "5db39a5fa429b86405d6204c110d48e71204826f5718dcd099ad347772669c25",
+      "modified": "2026-08-23T19:34:26.568396+00:00",
+      "entry_points": [
+        "enumerate_fixed_counts",
+        "sample_fixed_counts",
+        "evaluate_assignments"
+      ],
+      "imports": [
+        "from __future__ import annotations",
+        "import itertools",
+        "from typing import Any, Callable, Dict, Iterable, List, Mapping, Sequence",
+        "import numpy as np",
+        "import pandas as pd",
+        "from ..estimators import EstimatorCache, EstimatorResult",
+        "from estimators import EstimatorCache, EstimatorResult"
+      ]
+    }
+  ]
+}

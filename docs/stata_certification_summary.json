@@ -1,0 +1,18 @@
+{
+  "status": "conditionally certified",
+  "scope": "official command with explicit dummy controls for the identical state/year fixed-effect model; ordinary covariates and positive weights included",
+  "official_commit": "767c8d6670a751170910d419bbafd323df92ef08",
+  "official_version": "November 22, 2023",
+  "reghdfe_version": "5.7.3 (13nov2019)",
+  "designs": 14,
+  "official_delete_fits": 112,
+  "max_scalar_gap": 3.652633751016765e-14,
+  "max_component_gap": 2.4202861936828413e-13,
+  "max_delete_gap": 2.2093438190040615e-13,
+  "max_jk_se_gap": 6.578071420904053e-14,
+  "max_jk_t_gap": 4.266809128239402e-12,
+  "max_jk_p_gap": 4.884981308350689e-15,
+  "default_absorbed_FE_max_scalar_gap": 0.002671553820478,
+  "acceptance": true,
+  "caveat": "Installed reghdfe absorbed-FE recovery is numerically sensitive, especially at extreme weights; the unchanged official command with explicit FE controls matches raw WLS and Python."
+}
