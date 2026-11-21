@@ -52,7 +52,7 @@ Candidate profile: 0.270s total; 0.170s cumulative fit; 0.012s assignment block 
 
 
 
-The point/aggregation and assignment-update timings above include the exact operations needed for that procedure; cProfile does not separately time individual arithmetic lines. Raw profiles and full phase measurements are retained in codex_logs/bjs_old_profile.*, bjs_candidate_profile.*, bjs_old_cps_benchmark.json and bjs_candidate_cps_benchmark.json. Remaining bottlenecks are Python loop/assignment validation, repeated small solves, and inner jackknife orchestration. Further optimization is optional and was not pursued by weakening checks.
+The point/aggregation and assignment-update timings above include the exact operations needed for that procedure; cProfile does not separately time individual arithmetic lines. The detailed profiling artifacts are retained in private benchmark evidence and are not part of this source distribution. Remaining bottlenecks are Python loop/assignment validation, repeated small solves, and inner jackknife orchestration. Further optimization is optional and was not pursued by weakening checks.
 
 
 

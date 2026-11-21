@@ -2,7 +2,7 @@
 
 **Conditionally certified.** The unchanged official command agrees with Python on all 14 deterministic fixtures and all 112 state deletions when the identical state/year fixed-effect model is represented by explicit dummy controls through documented fe(.) and controls(...) options. No Python estimator was altered to force agreement. The condition concerns numerical representation in the installed Stata dependency, not a changed estimand.
 
-Official source: https://github.com/borusyak/did_imputation at commit `767c8d6670a751170910d419bbafd323df92ef08`, command version November 22, 2023. Installed project-locally and in the standard user ado directory with explicit user permission. Existing reghdfe/ftools packages were not upgraded. StataNow/SE 18.5, reghdfe 5.7.3 (13nov2019), and existing ftools were used. Exact source hashes are in codex_logs/did_imputation_installation.json.
+Official source: https://github.com/borusyak/did_imputation at commit `767c8d6670a751170910d419bbafd323df92ef08`, command version November 22, 2023. Installed project-locally and in the standard user ado directory with explicit user permission. Existing reghdfe/ftools packages were not upgraded. StataNow/SE 18.5, reghdfe 5.7.3 (13nov2019), and existing ftools were used. The comparator commit above identifies the upstream source used for this recorded check.
 
 ## Numerical evidence
 
